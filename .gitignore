@@ -1,0 +1,4 @@
+node_modules/
+server/index.mjs
+*.mcpb
+.DS_Store

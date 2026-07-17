@@ -1,0 +1,18 @@
+{
+  "name": "obsidian-mcp",
+  "version": "1.0.0",
+  "description": "Claude Desktop extension to read, search and edit your local Obsidian vault via the Local REST API plugin.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Martin Blanquer",
+  "scripts": {
+    "build": "esbuild src/index.js --bundle --platform=node --format=esm --target=node18 --outfile=server/index.mjs",
+    "pack": "npm run build && npx -y @anthropic-ai/mcpb pack . obsidian.mcpb"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.0"
+  }
+}
