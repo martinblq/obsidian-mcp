@@ -63,10 +63,6 @@ The extension depends on the Local REST API plugin, which runs its own local ser
 - **[Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)** plugin by coddingtonbear
 - **[Obsidian](https://obsidian.md)**
 
-## License
-
-MIT. See [LICENSE](LICENSE).
-
 ## Development
 
 This extension is open source. The runtime is a single bundled file built from `src/index.js`.
