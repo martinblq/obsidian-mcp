@@ -63,7 +63,7 @@ This extension depends on the Local REST API plugin, which runs its own local se
 ## Credits
 
 - **[Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)** plugin by coddingtonbear
-- **[Obsidian](https://obsidian.md)** — name and logo used with permission
+- **[Obsidian](https://obsidian.md)**
 
 This is a community extension. It is not built by, affiliated with, or endorsed by Obsidian.
 
