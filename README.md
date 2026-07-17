@@ -2,12 +2,12 @@
 
 Connect Claude to your local Obsidian vault. Ask Claude to list, read, search and (optionally) edit your notes, all running on your own computer.
 
-This extension talks to your vault through the community plugin **Local REST API** by coddingtonbear. That plugin is what exposes your vault locally; this extension connects Claude to it. Nothing leaves your machine.
+This extension talks to your vault through the community plugin **[Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)** by coddingtonbear. That plugin is what exposes your vault locally; this extension connects Claude to it. Nothing leaves your machine.
 
 ## What you need
 
 - [Obsidian](https://obsidian.md)
-- The **Local REST API** community plugin, installed and enabled (steps below)
+- The **[Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)** community plugin by coddingtonbear, installed and enabled (steps below)
 - Claude Desktop
 
 ## Setup (about 3 minutes)
@@ -60,8 +60,8 @@ The extension depends on the Local REST API plugin, which runs its own local ser
 
 ## Credits
 
-- **Local REST API** plugin by coddingtonbear — https://github.com/coddingtonbear/obsidian-local-rest-api
-- **Obsidian** — https://obsidian.md (name and logo used with permission)
+- **[Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)** plugin by coddingtonbear
+- **[Obsidian](https://obsidian.md)**
 
 ## License
 
