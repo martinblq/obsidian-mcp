@@ -1,0 +1,9 @@
+# The server is bundled by esbuild into server/index.mjs, which is fully
+# self-contained. Shipping node_modules would only bloat the package.
+node_modules/
+
+.git/
+.gitignore
+.DS_Store
+*.mcpb
+package-lock.json

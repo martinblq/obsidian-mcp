@@ -39,14 +39,16 @@ Turn editing or deleting off at any time to make the extension effectively read-
 
 ## Privacy Policy
 
-This extension does not collect, transmit, or store any of your data on any external server.
+This extension does not collect, transmit, or store any of your data on any external server. Everything runs locally on your computer.
 
-- All communication happens **locally on your computer**, between Claude Desktop and Obsidian over `127.0.0.1` (localhost). Your notes never leave your machine through this extension.
-- Your Obsidian API key is stored in your operating system's **secure keychain** (macOS Keychain / Windows Credential Manager), not in a plain text file.
-- The extension contains **no analytics and no telemetry**.
-- The only network connection it makes is to your own Obsidian instance on localhost, through the Local REST API plugin.
+- **Data collection:** The extension collects no personal data and no usage data.
+- **Usage and storage:** All communication happens locally, between Claude Desktop and Obsidian over `127.0.0.1` (localhost). Your notes never leave your machine through this extension. Your Obsidian API key is stored in your operating system's secure keychain (macOS Keychain / Windows Credential Manager), never in a plain text file.
+- **Third-party sharing:** No data is shared with any third party. The only network connection the extension makes is to your own Obsidian instance on localhost, through the Local REST API plugin.
+- **Data retention:** The extension does not retain or persist your notes or vault data. It processes data only transiently to fulfill each request and keeps nothing afterward.
+- **Analytics and telemetry:** None.
+- **Contact:** For questions or privacy concerns, open an issue at https://github.com/martinblq/obsidian-mcp/issues.
 
-The extension depends on the Local REST API plugin, which runs its own local server on your machine; refer to that plugin's documentation for its behavior.
+This extension depends on the Local REST API plugin, which runs its own local server on your machine; refer to that plugin's documentation for its behavior.
 
 ## Security notes
 
@@ -61,7 +63,9 @@ The extension depends on the Local REST API plugin, which runs its own local ser
 ## Credits
 
 - **[Local REST API](https://github.com/coddingtonbear/obsidian-local-rest-api)** plugin by coddingtonbear
-- **[Obsidian](https://obsidian.md)**
+- **[Obsidian](https://obsidian.md)** — name and logo used with permission
+
+This is a community extension. It is not built by, affiliated with, or endorsed by Obsidian.
 
 ## Development
 
