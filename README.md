@@ -13,9 +13,9 @@ This extension talks to your vault through the community plugin **[Local REST AP
 ## Setup (about 3 minutes)
 
 ### 1. Install the Local REST API plugin in Obsidian
-1. In Obsidian, open **Settings > Community plugins**.
+1. In Obsidian, open **Settings > Community plugins**. If **Restricted Mode** is on, click **Turn on community plugins** — the **Browse** button only appears after this.
 2. Click **Browse**, search for **"Local REST API"** (by coddingtonbear), then **Install** and **Enable** it.
-3. Open the plugin's settings and **copy the API key** shown there. Keep it handy for the next step.
+3. Open the plugin's settings (**Settings > Local REST API**) and **copy the API key** shown there. Keep it handy for the next step.
 
 ### 2. Install this extension in Claude Desktop
 1. Download the `obsidian.mcpb` file.
